@@ -1,6 +1,6 @@
 # observable.ts 🐜
 
-![npm](https://img.shields.io/npm/v/observable.ts) ![npm bundle size](https://img.shields.io/bundlephobia/min/observable.ts) ![Coverage](https://img.shields.io/badge/coverage-100%25-green) ![License](https://img.shields.io/github/license/FPurchess/observable.ts) [![Documentation]()](https://fpurchess.github.io/observable.ts)
+![npm](https://img.shields.io/npm/v/observable.ts) ![npm bundle size](https://img.shields.io/bundlephobia/min/observable.ts) ![Coverage](https://img.shields.io/badge/coverage-100%25-green) ![License](https://img.shields.io/github/license/FPurchess/observable.ts)
 
 A minimal reactivity library that is
 
