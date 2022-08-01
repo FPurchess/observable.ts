@@ -22,6 +22,12 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "index.ts"
+  ],
   "scripts": {
     "prepare": "husky install",
     "build": "rimraf dist && tsc && rollup -c rollup.config.ts",
