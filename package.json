@@ -1,0 +1,41 @@
+{
+  "name": "observable.ts",
+  "version": "1.0.0",
+  "description": "plain, easy-to-use observables for typescript",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FPurchess/observable.ts"
+  },
+  "maintainers": [
+    {
+      "name": "Florian Purchess",
+      "email": "florian.purchess@googlemail.com",
+      "web": "https://florian-purchess.de/"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FPurchess/observable.ts/issues"
+  },
+  "homepage": "https://github.com/FPurchess/observable.ts#readme",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc && rollup -c rollup.config.ts",
+    "build:docs": "typedoc",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.4",
+    "c8": "^7.12.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.77.2",
+    "tslib": "^2.4.0",
+    "typedoc": "^0.23.10",
+    "typescript": "^4.7.4",
+    "vitest": "^0.20.2"
+  }
+}
